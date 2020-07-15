@@ -11,11 +11,13 @@ public class StudentTest {
     @Test
     public void introduce_test() {
         //given
+        Klass klass=new Klass();
         Student student=new Student();
+
         //when
         student.setName("Tom");
         student.setAge(21);
-        student.setClassNumber(2);
+        klass.setKlassNumber(2);
         String actual=student.introduce();
         //then
         assertEquals(actual, " My name is Tom. I am 21 years old. I am a Student of Class 2.");
