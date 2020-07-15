@@ -24,7 +24,7 @@ public class Teacher extends Person {
     }
 
     public String introduce(){
-        return super.introduce()+"";
+        return super.introduce()+" I am a "+getJob()+".";
     }
 
 
