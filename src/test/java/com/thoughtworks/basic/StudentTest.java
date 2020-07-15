@@ -12,7 +12,7 @@ public class StudentTest {
     public void introduce_test() {
         //given
         Klass klass=new Klass();
-        Student student=new Student();
+        Student student=new Student(klass);
 
         //when
         student.setName("Tom");

@@ -5,6 +5,7 @@ public class Klass {
     public Klass(){}
 
     private int klassNumber;
+    private Teacher teacher;
 
     public int getKlassNumber() {
         return klassNumber;

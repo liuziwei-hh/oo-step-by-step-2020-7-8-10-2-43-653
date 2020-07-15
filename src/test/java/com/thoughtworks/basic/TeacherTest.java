@@ -11,7 +11,8 @@ public class TeacherTest {
     @Test
     public void introduce_test() {
         //given
-        Teacher teacher=new Teacher();
+        Teacher teacher=new Teacher(klass);
+        Klass klass=new Klass();
         //when
         teacher.setName("Matt");
         teacher.setAge(30);
